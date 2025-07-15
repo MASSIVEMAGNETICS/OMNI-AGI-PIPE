@@ -1,0 +1,26 @@
+bloodline:
+  enforce: true
+
+qwen:
+  endpoint: "http://localhost:8000/qwen-vlo"
+  api_key: "YOUR_QWEN_KEY"
+
+tower:
+  endpoint: "http://localhost:8000/tower"
+  api_key: "YOUR_TOWER_KEY"
+
+magenta:
+  endpoint: "http://localhost:8000/magenta"
+  api_key: "YOUR_MAGENTA_KEY"
+
+embody:
+  endpoint: "http://localhost:8000/embodiedgen"
+  api_key: "YOUR_EMBODY_KEY"
+
+mlflow:
+  tracking_uri: "http://localhost:5000"
+  experiment: "bando_omni_agi_eval"
+
+unsloth:
+  enabled: true
+  model_dir: "./checkpoints"
