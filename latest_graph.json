@@ -1,0 +1,26 @@
+{
+  "nodes": {
+    "e894a435-c608-4101-9b21-62cdcb84d47a": {
+      "type": "linear",
+      "params": {},
+      "inputs": [],
+      "outputs": [
+        "055fa9c9-feab-4127-9bbb-b8736f1e32ed"
+      ]
+    },
+    "055fa9c9-feab-4127-9bbb-b8736f1e32ed": {
+      "type": "relu",
+      "params": {},
+      "inputs": [
+        "e894a435-c608-4101-9b21-62cdcb84d47a"
+      ],
+      "outputs": []
+    }
+  },
+  "edges": [
+    [
+      "e894a435-c608-4101-9b21-62cdcb84d47a",
+      "055fa9c9-feab-4127-9bbb-b8736f1e32ed"
+    ]
+  ]
+}

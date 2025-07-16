@@ -1,0 +1,26 @@
+{
+  "nodes": {
+    "a9f0af5a-5a31-40b5-94d3-c2f1b8e32dfa": {
+      "type": "linear",
+      "params": {},
+      "inputs": [],
+      "outputs": [
+        "23200aad-5324-49bb-98e0-6cfbc3343a0e"
+      ]
+    },
+    "23200aad-5324-49bb-98e0-6cfbc3343a0e": {
+      "type": "relu",
+      "params": {},
+      "inputs": [
+        "a9f0af5a-5a31-40b5-94d3-c2f1b8e32dfa"
+      ],
+      "outputs": []
+    }
+  },
+  "edges": [
+    [
+      "a9f0af5a-5a31-40b5-94d3-c2f1b8e32dfa",
+      "23200aad-5324-49bb-98e0-6cfbc3343a0e"
+    ]
+  ]
+}
